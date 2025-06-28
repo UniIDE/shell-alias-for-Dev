@@ -1,0 +1,13 @@
+alias gsa="gitStatusSubdirs"
+
+# fn()
+gitStatusSubdirs(){
+  # Git Status all Sub Directories!
+	for f in *; do
+		cd $f
+		if [ -d ".git" ]; then
+			git status
+		fi
+		cd - >/dev/null
+	done
+}
