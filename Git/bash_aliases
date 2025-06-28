@@ -1,3 +1,3 @@
-# https://github.com/UniIDE/gitStatusRecursive
+alias gs="~/.bin/git/gitStatusAll.sh" # https://github.com/UniIDE/gitStatusRecursive
 
 alias gap="git add .; git commit -am '0'; git push"
