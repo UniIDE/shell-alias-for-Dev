@@ -10,8 +10,9 @@ https://askubuntu.com/questions/979327/create-a-bash-alias-for-several-commands-
 https://stackoverflow.com/questions/756756/multiple-commands-in-an-alias-for-bash
 
 >Try:
->`alias lock='gnome-screensaver; gnome-screensaver-command --lock'`
->
+>```
+>alias lock='gnome-screensaver; gnome-screensaver-command --lock'
+>```
 >or
 >```
 >lock() {
