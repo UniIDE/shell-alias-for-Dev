@@ -2,7 +2,7 @@ alias gsa="gitStatusSubdirs"
 
 # fn()
 gitStatusSubdirs(){
-  # Git Status all Sub Directories!
+	# Git Status in all Sub Directories!
 	for f in *; do
 		cd $f
 		if [ -d ".git" ]; then
